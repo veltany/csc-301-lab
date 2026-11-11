@@ -1,0 +1,27 @@
+========================================
+  TEST SET 1: Empty List & Error Handling
+========================================
+List Contents: [EMPTY]
+[ERROR] Cannot delete 10: List is empty.
+[ERROR] Cannot delete position 0: List is empty.
+
+========================================
+  TEST SET 2: Insertion Operations
+========================================
+[SUCCESS] Inserted 30 at the beginning.
+[SUCCESS] Inserted 10 at the beginning.
+[SUCCESS] Inserted 50 at the end.
+[SUCCESS] Inserted 20 at index position 1.
+[SUCCESS] Inserted 40 at index position 3.
+List Contents: 10 -> 20 -> 30 -> 40 -> 50 -> NULL
+
+========================================
+  TEST SET 3: Deletion & Boundary Cases
+========================================
+[SUCCESS] Deleted value 30 from list.
+List Contents: 10 -> 20 -> 40 -> 50 -> NULL
+[SUCCESS] Deleted node at index position 0.
+List Contents: 20 -> 40 -> 50 -> NULL
+[ERROR] Position 10 is out of bounds (Current size: 3).
+[ERROR] Value 999 not found in the list.
+List Contents: 20 -> 40 -> 50 -> NULL
