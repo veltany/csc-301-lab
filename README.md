@@ -1,4 +1,4 @@
-# CSC 301: Data Structures - Tutor-Marked Assessment
+# CSC 301: Data Structures - Lab Assessment
 
 This repository contains the C++ implementations for the **CSC 301: Data Structures** Tutor-Marked Assessment (MIVA Open University).
 
